@@ -260,4 +260,24 @@ textarea {
     page-break-after: avoid;
   }
 }
-
+/* Author Styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav ul {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding-left: 0;
+}
+nav ul li {
+  display: inline-block;
+  margin: 0.5rem;
+}
+.container {
+  align-items: center;
+  display: flex;
+  flex-flow: column nowrap;
+  margin: 30px auto;
+  padding: 1rem;
+}
